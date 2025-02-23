@@ -6,8 +6,8 @@ export const Route = createFileRoute('/')({
 
 const HomeComponent = () => {
   return (
-    <div className="p-2">
-      <h3>Welcome Home!</h3>
+    <div className="flex justify-center items-center w-screen h-screen">
+      <p className="font-bold text-2xl text-gray-800">hello</p>
     </div>
   );
 };
